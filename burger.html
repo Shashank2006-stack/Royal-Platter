@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Burgers</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        body {
+            font-family: 'Playfair Display', serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffcc66;
+            color: #8b4513;
+        }
+        header {
+            text-align: center;
+            background-color: #d2691e;
+            padding: 20px;
+            color: white;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #a0522d;
+            padding: 10px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        section {
+            padding: 40px;
+            text-align: center;
+        }
+        .menu-item {
+            background: #ffb347;
+            padding: 20px;
+            margin: 20px auto;
+            width: 50%;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .menu-item img {
+            width: 50%;
+            border-radius: 10px;
+           
+        }
+        footer {
+            text-align: center;
+            background-color: #d2691e;
+            color: white;
+            padding: 10px;
+        }
+        .menu-item img:hover{
+            width: 53%;
+            transition: 0.3s ease;
+        }
+        h1{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Burger Haven</h1>
+        <p>Experience the juiciest and most delicious burgers.</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="about">
+        <h2>About Our Burgers</h2>
+        <p>We craft our burgers with the finest ingredients, fresh vegetables, and premium beef.</p>
+    </section>
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-item">
+            <img src="./brger2.avif" alt="Cheeseburger">
+            <h3>Cheeseburger</h3>
+            <p>Classic burger with juicy beef patty, cheese, lettuce, and tomatoes.</p>
+            <button  btn btn="danger" style="background-color: #a26d3b;">Order Now</button>
+        </div>
+        <div class="menu-item">
+            <img src="./b2.jpg" alt="BBQ Bacon Burger">
+            <h3>BBQ Bacon Burger</h3>
+            <p>Smoky BBQ sauce, crispy bacon, cheddar cheese, and caramelized onions.</p>
+            <button  btn btn="danger" style="background-color: #a26d3b;">Order Now</button>
+        </div>
+        <div class="menu-item">
+            <img src="./b3.jpg" alt="BBQ Bacon Burger">
+            <h3>Classical chicken Burger</h3>
+            <p>Juicy, crispy chicken burger with fresh lettuce, melted cheese, and a toasted brioche bun." </p>
+            <button btn btn="danger" style="background-color: #a26d3b;">Order Now</button>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: burgerhaven.com</p>
+    </section>
+
+</body>
+</html>
