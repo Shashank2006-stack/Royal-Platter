@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Pizza</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Playfair Display', serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffcc80;
+            color: #8b0000;
+            background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("pasta3.jpeg");
+            background-repeat: no-repeat;
+            background-position: cover;
+            background-size: cover
+        }
+        
+        
+        h1 {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 36px;
+        }
+
+        header {
+            text-align: center;
+            background-color: #b22222;
+            padding: 20px;
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #8b0000;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 10px;
+            display: flex;
+            margin: 10px;
+
+        }
+
+        nav ul li {
+            margin: 0 15px;
+
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 40px;
+            text-align: center;
+
+        }
+
+        .menu-item {
+            background: #ffb347;
+            padding: 20px;
+            margin: 20px auto;
+            width: 50%;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .menu-item img {
+            width: 50%;
+            border-radius: 16px;
+
+        }
+
+        .menu-item img:hover {
+            width: 53%;
+            transition: 0.3s ease;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #b22222;
+            color: white;
+            padding: 10px;
+        }
+
+        .image {
+            z-index: 1;
+        }
+
+        .bad {
+            z-index: 10;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bad">
+        <header>
+            <h1>Welcome to Pizza Paradise</h1>
+            <p>Experience the most delicious and mouth-watering pizzas.</p>
+        </header>
+
+
+
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+
+
+
+        <section id="about">
+            <h2>About Our Pizzas</h2>
+            <p>We craft our pizzas with the freshest ingredients and traditional Italian recipes.</p>
+        </section>
+
+
+
+        <section id="menu">
+            <h2>Our Menu</h2>
+            <div class="menu-item">
+                <img src="./pizza.jpeg" alt="Margherita Pizza">
+                <h3>Margherita Pizza</h3>
+                <p>Classic pizza with tomato sauce, fresh mozzarella, and basil.</p>
+                <button>Order Now</button>
+            </div>
+            <div class="menu-item">
+                <img src="./pizza 2.jpg" alt="Pepperoni Pizza">
+                <h3>Pepperoni Pizza</h3>
+                <p>Loaded with spicy pepperoni and melted cheese.</p>
+                <button>Order Now</button>
+            </div>
+            <div class="menu-item">
+                <img src="./itallian pizza.jpg" alt="Pepperoni Pizza">
+                <h3>Itallian pizza</h3>
+                <p>"Authentic Italian pizza with a crispy crust, rich tomato sauce, and gooey mozzarella—straight from
+                    Naples to your plate!</p>
+                <button>Order Now</button>
+            </div>
+    </div>
+    </section>
+
+
+
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: pizzaparadise@.com</p>
+    </section>
+
+</body>
+
+</html>
