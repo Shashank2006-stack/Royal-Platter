@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floating Dessert Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff8e1;
+            color: #222;
+            overflow-x: hidden;
+        }
+        header {
+            background: #ff4081;
+            padding: 20px;
+            text-align: center;
+            color: white;
+            font-size:55px;
+            font-weight: bold;
+            height: 175px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                  
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+            padding: 50px;
+            position: relative;
+        }
+        .floating-box {
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            width: 300px;
+            position: relative;
+            transition: transform 0.3s ease-in-out;
+            height: 300px;
+        }
+        .floating-box:hover {
+            transform: translateY(-10px);
+        }
+        .floating-box img {
+            width: 50%;
+            height: 150px;  
+            border-radius: 100%;
+        }
+        .floating-box img:hover{
+            width: 54%;
+            transition: 0.3s ease;
+            box-shadow: 2px black;
+        }
+        .floating-box h3 {
+            margin: 15px 0;
+            color: #ff4081;
+        }
+        .floating-box p {
+            color: #555;
+        }
+        .floating-box button {
+            background: #ff4081;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 8px;
+            transition: 0.3s;
+            margin-top: 112px;
+            
+
+        }
+        .floating-box button:hover {
+            background: #e91e63;
+        }
+    </style>
+</head>
+<body>
+    <header>Delicious Desserts</header>
+    <div class="container">
+        <div class="floating-box">
+            <img src="D:\PROJECTCSS\SS\chocolate.jpg" alt="Chocolate Cake">
+            <h3>Chocolate Cake</h3>
+            <p>Rich and creamy chocolate delight.</p>
+            <button>Order Now</button>
+        </div>
+        <div class="floating-box">
+            <img src="D:\PROJECTCSS\SS\donuts.jpg" alt="Ice Cream Sundae">
+            <h3>Ice Cream Sundae</h3>
+            <p>Cold, sweet, and loaded with toppings.</p>
+            <button>Order Now</button>
+        </div>
+        <div class="floating-box">
+            <img src="D:\PROJECTCSS\SS\sundae.jpg" alt="Glazed Donuts">
+            <h3>Glazed Donuts</h3>
+            <p>Soft, fluffy, and covered in sugar glaze.</p>
+            <button>Order Now</button>
+        </div>
+    </div>
+</body>
+</html>
